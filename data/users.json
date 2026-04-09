@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cf341067-515f-42f9-97fa-9ac4024c84c7",
+    "username": "testuser",
+    "email": "test@test.dk",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$y3Y22kqiCuMfR6Y0Z68Geg$jEzbsLPZE9lDl7eeuHUM4peVien1Io9m5HKltDgtHn8",
+    "role": "user",
+    "createdAt": 1775448916869
+  },
+  {
+    "id": "ea39c2ec-a0bf-4932-9de6-6e5b6d13d82c",
+    "username": "testuser2",
+    "email": "test2@test.dk",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$FFDCotj/3ANTwxIARxGxCg$dgTSMvNEJXX8FAbruTu352Er52uGSRAYTR8WC4JCNlg",
+    "role": "user",
+    "createdAt": 1775464852838
+  },
+  {
+    "id": "3ff0d362-8230-4ec4-befd-0a3a2b9c13f3",
+    "username": "batman",
+    "email": "123@test3.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$j9b1Wn5bU6tHSmwuv3fYSg$wktgb/ZxbRFQDFYPluY8CGyn9RjIazoJPYjWfAw2/dk",
+    "role": "user",
+    "createdAt": 1775467097454,
+    "passwordChangedAt": 1775483994730
+  },
+  {
+    "id": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "email": "batman@example.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$W5brbxochv1FS+jhrsCFTA$Lg/KIDyDur8j5MbVhc7oi1tg+BmidDf6zg0mazicU3A",
+    "role": "admin",
+    "createdAt": 1775467238522
+  },
+  {
+    "id": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "email": "andersdamsgaard95@gmail.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$UYf0WIYJA7EXqgbCIZLD0A$WKQNITWtm1D7xrgTvdpiMB+4jGg9JnzB1WoaNnGkI28",
+    "role": "user",
+    "createdAt": 1775740326994
+  },
+  {
+    "id": "714ed32b-532c-47fe-9965-3d04affcccd5",
+    "username": "jeppeD",
+    "email": "jeppe@jeppe.dk",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$dcpvjChNkWkOAhvnWEoWLw$DaJZZQ0voZ1JsRI0amN0sFs42EJymludBnxS+NGvFzM",
+    "role": "user",
+    "createdAt": 1775741489061
+  },
+  {
+    "id": "b9d8b081-231b-4640-94ab-ad77e6ca02b9",
+    "username": "lars",
+    "email": "lars@lars.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$ltmxbk+oe+5ngaaLbJCyNw$i83Vz8FsvJ2n0oFjRkys/mJrFfKmxQMLsPweARBY8XY",
+    "role": "user",
+    "createdAt": 1775741714964
+  },
+  {
+    "id": "79cafad5-f1dc-43d4-b396-9ba2da9635e1",
+    "username": "mikael laudrup",
+    "email": "mikael@laudrup.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$9uchfcly4l7JxpMuL6yylw$lEeyOmMxeNq1mP0tbaYlEeOWH0Oky1pxEGWg/9QJRLQ",
+    "role": "user",
+    "createdAt": 1775756265860
+  }
+]

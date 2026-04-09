@@ -1,0 +1,284 @@
+1. Klienten henter quizzen
+
+Klienten laver et GET kald til:
+
+GET /quizzes/:quizId
+
+Den route rammer getQuizById i quiz.controller.js.
+
+getQuizById gør så:
+læser quizId fra req.params.quizId
+finder quizfilen via findQuizById(quizId) i utils/quiz-store.js
+hvis quizzen ikke findes, returnerer den 404
+hvis quizzen findes, laver den en safe kopi af quizzen
+i den kopi fjerner den correctAnswers
+sender den saniterede quiz tilbage til klienten
+
+Så klienten får:
+
+id
+title
+questions
+options
+
+men ikke facit
+
+2. Klienten starter quizzen
+
+Når brugeren faktisk går i gang, laver klienten et POST kald til:
+
+POST /quizzes/:quizId/start
+
+Den route rammer startQuiz i quiz.controller.js.
+
+startQuiz gør så:
+læser quizId fra req.params
+læser den loggede bruger fra req.user
+finder quizzen igen via findQuizById(quizId)
+hvis quizzen ikke findes, returnerer den 404
+hvis quizzen findes, opretter den et nyt attempt-objekt
+
+Det attempt indeholder fx:
+
+attemptId
+userId
+username
+role
+quizId
+quizTitle
+startedAt
+tomme felter til finishedAt, totalTimeMs, score, answers
+
+Derefter sender startQuiz attemptet til createQuizAttempt(...) i utils/quiz-attempt-store.js.
+
+createQuizAttempt gør så:
+læser alle attempts fra data/quiz-attempts.json
+tilføjer det nye attempt
+gemmer filen igen
+
+Til sidst returnerer startQuiz et svar til klienten med:
+
+attemptId
+quizId
+quizTitle
+
+Klienten skal nu gemme attemptId, fordi det skal bruges ved aflevering.
+
+3. Brugeren besvarer quizzen i klienten
+
+Nu sidder klienten med quizzen uden facit og viser spørgsmålene.
+
+Brugeren laver svar, fx:
+
+single: "c"
+multiple: ["b", "c"]
+text: "Virtual Private Network"
+
+Klienten samler det i et answers array.
+
+4. Klienten afslutter quizzen
+
+Når brugeren afleverer, laver klienten et POST kald til:
+
+POST /quizzes/:quizId/finish
+
+med body som indeholder:
+
+attemptId
+answers
+
+Den route rammer finishQuiz i quiz.controller.js.
+
+5. finishQuiz finder det rigtige attempt
+
+finishQuiz gør så:
+
+læser quizId fra req.params
+læser attemptId og answers fra req.body
+læser bruger fra req.user
+
+Derefter kalder den findQuizAttemptById(attemptId) i utils/quiz-attempt-store.js.
+
+findQuizAttemptById gør så:
+læser alle attempts fra quiz-attempts.json
+finder det attempt, der matcher attemptId
+returnerer det
+
+Hvis attemptet ikke findes, returnerer finishQuiz fejl.
+
+6. finishQuiz validerer attemptet
+
+Når attemptet er fundet, tjekker finishQuiz:
+
+findes attemptet?
+tilhører det den loggede bruger?
+er det allerede afsluttet?
+matcher attempt.quizId det quizId, der kommer i URL’en?
+
+Hvis noget af det fejler, stopper den.
+
+7. finishQuiz henter quizzen med facit
+
+Når attemptet er godkendt, henter finishQuiz quizzen igen via:
+
+findQuizById(quizId)
+
+Denne gang bruges quizzen ikke til at vise spørgsmål, men til at hente:
+
+spørgsmål
+typer
+correctAnswers
+
+Altså selve facit.
+
+8. finishQuiz beregner resultatet
+
+Nu sender finishQuiz quizzen og brugerens svar til:
+
+calculateQuizResult(quiz, answers)
+
+i utils/quiz-result.js.
+
+calculateQuizResult gør så:
+går alle spørgsmål igennem
+finder brugerens svar til hvert spørgsmål
+læser correctAnswers fra quizzen
+sammenligner brugerSvar med rigtigeSvar
+beregner point
+bygger et resultat pr. spørgsmål
+
+Den returnerer fx:
+
+totalScore
+maxScore
+questions
+
+hvor hvert spørgsmål fx har:
+
+questionId
+questionText
+userAnswer
+correctAnswers
+isCorrect
+pointsAwarded
+
+Det er her selve scoringen sker.
+
+9. finishQuiz færdiggør attemptet
+
+Når resultatet er beregnet, opdaterer finishQuiz det gamle attempt med:
+
+finishedAt
+totalTimeMs
+score
+maxScore
+answers
+
+Så attemptet nu er en komplet log over hele quizforløbet:
+
+hvem
+hvilken quiz
+hvornår startede den
+hvornår sluttede den
+hvor længe tog det
+hvad svarede brugeren
+hvad var facit
+hvad blev scoren
+10. Det opdaterede attempt gemmes
+
+Nu sender finishQuiz det opdaterede attempt til:
+
+updateQuizAttempt(updatedAttempt)
+
+i utils/quiz-attempt-store.js.
+
+updateQuizAttempt gør så:
+læser alle attempts fra filen
+finder det gamle attempt via attemptId
+erstatter det med det nye
+gemmer filen igen
+
+Nu ligger hele resultatet permanent i quiz-attempts.json.
+
+11. finishQuiz sender resultat tilbage til klienten
+
+Til sidst returnerer finishQuiz resultatet til klienten.
+
+Det svar indeholder fx:
+
+attemptId
+quizId
+quizTitle
+startedAt
+finishedAt
+totalTimeMs
+score
+maxScore
+answers
+
+Og i answers må correctAnswers nu godt være med, fordi quizzen er afsluttet.
+
+Så det er først her, at klienten får facit.
+
+Hele flowet i én kæde
+Hent quiz
+
+GET /quizzes/:quizId
+→ getQuizById
+→ findQuizById
+→ fjern correctAnswers
+→ send quiz uden facit til klient
+
+Start quiz
+
+POST /quizzes/:quizId/start
+→ startQuiz
+→ hent req.user
+→ findQuizById
+→ opret attempt
+→ createQuizAttempt
+→ send attemptId tilbage
+
+Afslut quiz
+
+POST /quizzes/:quizId/finish
+→ finishQuiz
+→ findQuizAttemptById
+→ findQuizById
+→ calculateQuizResult
+→ opdatér attempt med sluttid, score og svar
+→ updateQuizAttempt
+→ send resultat + facit tilbage
+
+Hvilke filer der gør hvad
+routes/quiz.routes.js
+
+Binder URL’er til controller-funktioner:
+
+getQuizById
+startQuiz
+finishQuiz
+controllers/quiz.controller.js
+
+Styrer hele flowet:
+
+henter quiz
+starter quiz
+afslutter quiz
+utils/quiz-store.js
+
+Finder og læser quizfiler
+
+utils/quiz-attempt-store.js
+
+Gemmer og opdaterer quiz-attempts/logs
+
+utils/quiz-result.js
+
+Sammenligner brugerSvar med facit og beregner score
+
+data/quiz-attempts.json
+
+Her gemmes alle quizforsøg
+
+Hvis du vil, kan jeg som næste skridt skrive flowet ultra kort som “først tilføjer du X, så Y, så Z”.

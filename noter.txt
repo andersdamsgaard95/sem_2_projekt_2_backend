@@ -1,0 +1,200 @@
+- Test med Postman er godt.
+    - Test 1, register:
+        i POST, register url: http://localhost:3000/auth/register
+        body, JSON: {
+                    "username": "batman2",
+                    "email": "batman@example.com",
+                    "password": "12345678"
+                    }
+        Det giver så meddellelsen: user created.
+
+     - Test 2, login:
+        i POST, login url: http://localhost:3000/auth/login
+        body, JSON: {
+                    "username": "batman2",
+                    "password": "12345678"
+                    }
+        Det giver så meddellelsen: login successful. 
+
+    - Test 3, cookie:
+        i GET, test url: http://localhost:3000/me
+        body, JSON: {
+                    "username": "batman2",
+                    "password": "12345678"
+                    }
+        Det giver så meddellelsen: sessionID: "etEllerAndet". 
+
+    - Test 4, glemt kodeord:
+        i POST: http://localhost:3000/auth/forgot-password
+        body, JSON: {
+                    "email": "enEllerAndenEmail@example.com"
+                    }
+        Det giver så meddellelsen: "message": "Hvis emailen findes i systemet, er der sendt et reset-link."
+        uanset om email findes eller ej. Hvis den findes, så oprettes der JSON til den bruger, i password-resets.json som vil resette (fx):
+                    {
+                      "userId": "3ff0d362-8230-4ec4-befd-0a3a2b9c13f3",
+                      "hashedToken": "44d484dad358484c4b9fa5a9d6b295c36b670f47eb323866c0a2619aee67a4b8",
+                      "expiresAt": 1775484496619,
+                      "createdAt": 1775483596620
+                    }
+        i terminalen console.logger jeg det, som burde komme i emailen:
+                    === PASSWORD RESET EMAIL ===
+                    To: den.email.der.findes@example.com
+                    Reset link: http://localhost:5173/reset-password?token=...
+                    ============================
+
+    - Test 5, reset kodeord:
+        i POST: http://localhost:3000/auth/reset-password
+        body, JSON: {
+                    "token": "TOKEN_FRA_LINK",
+                    "newPassword": "PugMAXI!"
+                    }
+        Hvis det så virker, så får man: "message": "Password has been reset"
+
+
+    - Test 6, log in og bliv verificeret:
+        i POST: /auth/login
+          //det skal slef være en successful
+        i GET: /auth/me
+          //så sender serveren info om brugeren til klienten, så klienten véd, hvem der er logget ind.
+        i GET: /auth/protected
+          //"protected" er den route url, der kører igennem requireAuth, som tjekker sessionID
+          // det giver en besked og brugerinfo tilbage, så det virker for role: user
+        i GET /auth/admin-only
+          //får man 403, forbidden, da man kun er almindelig user og ikke admin.
+
+        //hvis man så skifter til role: admin, så får man adgang ved admin-only, da dens requireRole("admin") er ok
+
+
+- Det med ikke at give fyldestgørende fejlmeddelelser til login osv., det gør det svært som udvikler at finde fejlen også.
+
+
+
+
+
+
+
+// TEST TEST af cookieen, i server.js
+import { getSession } from "./utils/session.js";
+app.get("/me", (req, res) => {
+  const sessionId = req.cookies.sessionId;
+  const session = getSession(sessionId);
+  if (!session) {
+    return res.status(401).json({ message: "Not authenticated" });
+  }
+  res.json({
+    userId: session.userId
+  });
+});
+
+
+
+
+
+Hvordan frontend kan tænke det I praksis:
+
+ved app start kalder frontend /auth/me
+hvis 401 → send til login
+hvis 200 → brugeren er logget ind
+hvis rollen er admin → vis adminfunktioner
+hvis rollen er user → skjul adminfunktioner
+
+Det betyder, at frontend ikke selv skal gætte på noget. Den får sandheden fra backend.
+
+
+
+
+
+Eksempel på struktur:
+
+router.get("/results", requireAuth, getResults);
+router.post("/quiz/start", requireAuth, startQuiz);
+
+router.post("/admin/quiz", requireAuth, requireRole("admin"), createQuiz);
+router.delete("/admin/quiz/:id", requireAuth, requireRole("admin"), deleteQuiz);
+router.get("/admin/users", requireAuth, requireRole("admin"), listUsers);
+
+
+
+Ved normal fejl:
+400 → invalid input
+401 → invalid credentials / ikke auth
+403 → forbidden
+429 → for mange forsøg
+
+
+
+//______
+//HELMET
+//______
+Som jeg forstår det, så beskytter helmet dine headers, som besværliggør angreb. Man kan med en konfiguration gøre det totalt sikkert ift hvad din side egentlig må loade.
+Gemini: Helmet er en middleware til Express (og andre Node.js-frameworks), der automatisk opsætter forskellige HTTP-sikkerhedshoveder (HTTP security headers).
+        I stedet for at du manuelt skal konfigurere hvert eneste sikkerhedshoved i din app.js eller server.js, gør Helmet det for dig med én simpel kommando.
+        Hvad er CSP (Content Security Policy)? - CSP er et HTTP-hoved, der giver dig mulighed for at kontrollere, hvilke ressourcer (scripts, styles, billeder, osv.) din browser har tilladelse til at loade på din webside. Det er et af de stærkeste forsvar mod Cross-Site Scripting (XSS) og data-injiceringsangreb.
+        Hvordan det virker: Du sender en CSP-politik fra din server til browseren. Hvis siden forsøger at loade et script fra en domæne, som ikke er på din "white-list" (tilladelsesliste), vil browseren blokere det.
+        Eksempel: En politik kunne sige: "Tillad kun scripts fra mit eget domæne og fra trusted-scripts.com". Alt andet bliver afvist.
+
+// Vi bruger en konkret CSP-konfiguration i stedet for kun standarden.
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        // Tillad kun ressourcer fra samme origin som udgangspunkt.
+        defaultSrc: ["'self'"],
+
+        // Scripts må kun komme fra samme origin.
+        // Vi tillader ikke inline scripts her.
+        scriptSrc: ["'self'"],
+
+        // Styles må komme fra samme origin.
+        // Hvis frontend senere bruger inline styles eller style attributes,
+        // kan vi blive nødt til at justere strategien dér.
+        styleSrc: ["'self'"],
+
+        // Billeder må komme fra samme origin og data: URL'er.
+        // data: er ofte praktisk til små inline assets.
+        imgSrc: ["'self'", "data:"],
+
+        // API-kald / fetch / XHR må kun gå til samme origin.
+        // Hvis frontend ligger et andet sted i dev, kan vi justere senere.
+        connectSrc: ["'self'"],
+
+        // Blokér object/embed som defense-in-depth.
+        objectSrc: ["'none'"],
+
+        // Begræns base-tag manipulation.
+        baseUri: ["'self'"],
+
+        // Beskyt mod clickjacking via frame ancestors.
+        frameAncestors: ["'none'"],
+
+        // Formularer må kun submitte til samme origin.
+        formAction: ["'self'"]
+      }
+    },
+
+    // Slå ikke CSP fra.
+    // Vi vil faktisk have den aktiv.
+    crossOriginEmbedderPolicy: false
+  })
+);
+
+
+
+
+//_______
+// Seperation of concerns
+//_______
+Serveren er bygget modulært, så anvarsområder opdeles og appen kan testes og vedligeholdes nemmere.
+"controllers" er processer der på en måde tager brugeren/klienten/etEllerAndet fra en status til en anden. De "gør" egentlig ikke noget. Derfor er register, login, logout, forgot password, reset password, info om mig /me, - i auth.controllers.
+"auth" står for authentication - altså "hvem er du?"
+"middleware" er steps der ligger mellem en url request fra klienten til at en funktion udføres. En dørmand til en graduation, der tjekker om du nu også er den, du siger du er - agtigt.
+"validate" returnerer bare om et schema er truthy eller falsy, basically. Så hvis noget ikke passer i format, så siger den nix.
+"routes" giver sig selv. auth.routes indikerer at de her ruter handler om athentication.
+"utils" er utilities, og antyder "værktøjer", altså funktionaliteter, som resten af projektet kan bruge som værktøjer i sin opbygning.
+
+
+
+//______
+//FORGOT OG RESET PASSWORD
+//_______

@@ -1,0 +1,234 @@
+{
+  "id": "quiz1",
+  "title": "Datasikkerhed",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "Hvad er formålet med hashing af passwords?",
+      "options": [
+        {
+          "id": "a",
+          "text": "At kryptere passwords så de kan dekrypteres senere"
+        },
+        {
+          "id": "b",
+          "text": "At omdanne passwords til en fast længde streng, der ikke kan vendes tilbage"
+        },
+        {
+          "id": "c",
+          "text": "At gemme passwords i klartekst"
+        },
+        {
+          "id": "d",
+          "text": "At komprimere passwords"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "question": "Hvad er formålet med salting?",
+      "options": [
+        {
+          "id": "a",
+          "text": "At gøre hashes unikke selv for ens passwords"
+        },
+        {
+          "id": "b",
+          "text": "At beskytte mod rainbow table angreb"
+        },
+        {
+          "id": "c",
+          "text": "At gøre hashing hurtigere"
+        },
+        {
+          "id": "d",
+          "text": "At reducere lagringsplads"
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "question": "Hvad står forkortelsen 'HMAC' for?",
+      "correctAnswers": [
+        "Hash-based Message Authentication Code"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "question": "Hvad er forskellen mellem hashing og kryptering?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hashing kan dekrypteres, kryptering kan ikke"
+        },
+        {
+          "id": "b",
+          "text": "Hashing er én-vejs, kryptering er to-vejs"
+        },
+        {
+          "id": "c",
+          "text": "Der er ingen forskel"
+        },
+        {
+          "id": "d",
+          "text": "Hashing er langsommere end kryptering"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "question": "Hvilke af følgende er sikre hashing-algoritmer til passwords?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bcrypt"
+        },
+        {
+          "id": "b",
+          "text": "argon2"
+        },
+        {
+          "id": "c",
+          "text": "MD5"
+        },
+        {
+          "id": "d",
+          "text": "SHA-1"
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "question": "Hvad er 'pepper' i forbindelse med password hashing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En offentlig nøgle gemt i databasen"
+        },
+        {
+          "id": "b",
+          "text": "En hemmelig værdi gemt separat fra databasen"
+        },
+        {
+          "id": "c",
+          "text": "En type hash-algoritme"
+        },
+        {
+          "id": "d",
+          "text": "En metode til at komprimere data"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "question": "Hvilke angreb forsøger man at beskytte mod med hashing og salting?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brute force angreb"
+        },
+        {
+          "id": "b",
+          "text": "Rainbow table angreb"
+        },
+        {
+          "id": "c",
+          "text": "SQL injection"
+        },
+        {
+          "id": "d",
+          "text": "Replay attacks"
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "text",
+      "question": "Hvad kaldes et angreb hvor man prøver alle mulige password kombinationer?",
+      "correctAnswers": [
+        "brute force"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "question": "Hvorfor bør man bruge langsomme hashing-algoritmer som bcrypt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "For at spare CPU"
+        },
+        {
+          "id": "b",
+          "text": "For at gøre brute force angreb langsommere"
+        },
+        {
+          "id": "c",
+          "text": "For at reducere database størrelse"
+        },
+        {
+          "id": "d",
+          "text": "For at gøre login hurtigere"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "question": "Hvad er gode praksisser for password sikkerhed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brug af salt"
+        },
+        {
+          "id": "b",
+          "text": "Brug af pepper"
+        },
+        {
+          "id": "c",
+          "text": "Gem passwords i klartekst"
+        },
+        {
+          "id": "d",
+          "text": "Brug af adaptive hashing algoritmer"
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}

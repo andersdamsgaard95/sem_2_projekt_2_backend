@@ -1,0 +1,234 @@
+{
+  "id": "quiz2",
+  "title": "CSS",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "Hvad bestemmer CSS specificity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hvor hurtigt CSS loader"
+        },
+        {
+          "id": "b",
+          "text": "Hvilken regel der bliver anvendt når flere matcher samme element"
+        },
+        {
+          "id": "c",
+          "text": "Hvor mange styles der er i filen"
+        },
+        {
+          "id": "d",
+          "text": "Browserens rendering speed"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "question": "Hvilke af følgende påvirker CSS specificity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inline styles"
+        },
+        {
+          "id": "b",
+          "text": "ID selectors"
+        },
+        {
+          "id": "c",
+          "text": "Class selectors"
+        },
+        {
+          "id": "d",
+          "text": "Element selectors"
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "question": "Hvad hedder layout systemet i CSS der arbejder i én dimension (enten række eller kolonne)?",
+      "correctAnswers": [
+        "flexbox"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "question": "Hvad gør 'position: absolute'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Positionerer elementet relativt til viewport"
+        },
+        {
+          "id": "b",
+          "text": "Positionerer elementet relativt til nærmeste positionerede parent"
+        },
+        {
+          "id": "c",
+          "text": "Gør elementet statisk"
+        },
+        {
+          "id": "d",
+          "text": "Flytter elementet til toppen af DOM'en"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "question": "Hvilke af følgende er gyldige display værdier?",
+      "options": [
+        {
+          "id": "a",
+          "text": "flex"
+        },
+        {
+          "id": "b",
+          "text": "grid"
+        },
+        {
+          "id": "c",
+          "text": "inline-block"
+        },
+        {
+          "id": "d",
+          "text": "center"
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "question": "Hvad gør 'z-index'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Styrer elementets bredde"
+        },
+        {
+          "id": "b",
+          "text": "Styrer lagdeling (stacking order)"
+        },
+        {
+          "id": "c",
+          "text": "Styrer flexbox retning"
+        },
+        {
+          "id": "d",
+          "text": "Styrer opacity"
+        }
+      ],
+      "correctAnswers": [
+        "b"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "question": "Hvilke properties bruges i flexbox?",
+      "options": [
+        {
+          "id": "a",
+          "text": "justify-content"
+        },
+        {
+          "id": "b",
+          "text": "align-items"
+        },
+        {
+          "id": "c",
+          "text": "grid-template-columns"
+        },
+        {
+          "id": "d",
+          "text": "flex-direction"
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "text",
+      "question": "Hvad hedder CSS layout systemet der arbejder i to dimensioner (rækker og kolonner)?",
+      "correctAnswers": [
+        "grid"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "question": "Hvad betyder 'box-sizing: border-box'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Padding og border inkluderes i elementets width/height"
+        },
+        {
+          "id": "b",
+          "text": "Padding ignoreres"
+        },
+        {
+          "id": "c",
+          "text": "Border fjernes"
+        },
+        {
+          "id": "d",
+          "text": "Width bliver automatisk 100%"
+        }
+      ],
+      "correctAnswers": [
+        "a"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "question": "Hvilke ting kan skabe en ny stacking context?",
+      "options": [
+        {
+          "id": "a",
+          "text": "position med z-index"
+        },
+        {
+          "id": "b",
+          "text": "opacity mindre end 1"
+        },
+        {
+          "id": "c",
+          "text": "display: flex"
+        },
+        {
+          "id": "d",
+          "text": "transform"
+        }
+      ],
+      "correctAnswers": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}

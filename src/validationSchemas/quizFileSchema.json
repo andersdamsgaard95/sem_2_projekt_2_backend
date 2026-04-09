@@ -1,0 +1,142 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Quiz",
+    "type": "object",
+    "required": [
+        "id",
+        "title",
+        "questions"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "questions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "required": [
+                    "id",
+                    "type",
+                    "question",
+                    "correctAnswers"
+                ],
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string",
+                        "enum": [
+                            "single",
+                            "multiple",
+                            "text"
+                        ]
+                    },
+                    "question": {
+                        "type": "string"
+                    },
+                    "options": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "id",
+                                "text"
+                            ],
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                },
+                                "text": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    },
+                    "correctAnswers": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "allOf": [
+                    {
+                        "if": {
+                            "properties": {
+                                "type": {
+                                    "const": "multiple"
+                                }
+                            }
+                        },
+                        "then": {
+                            "properties": {
+                                "options": {
+                                    "type": "array",
+                                    "minItems": 4,
+                                    "maxItems": 4
+                                },
+                                "correctAnswers": {
+                                    "type": "array",
+                                    "minItems": 2,
+                                    "maxItems": 2
+                                }
+                            },
+                            "required": [
+                                "options",
+                                "correctAnswers"
+                            ]
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "type": {
+                                    "const": "single"
+                                }
+                            }
+                        },
+                        "then": {
+                            "properties": {
+                                "correctAnswers": {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "maxItems": 1
+                                },
+                                "options": {
+                                    "type": "array",
+                                    "minItems": 2
+                                }
+                            },
+                            "required": [
+                                "options",
+                                "correctAnswers"
+                            ]
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "type": {
+                                    "const": "text"
+                                }
+                            }
+                        },
+                        "then": {
+                            "not": {
+                                "required": [
+                                    "options"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

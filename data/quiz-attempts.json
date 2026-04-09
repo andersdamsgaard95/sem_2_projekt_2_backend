@@ -1,0 +1,1880 @@
+[
+  {
+    "attemptId": "43c5fdd2-85b6-4e6a-b83a-1151c41b77a0",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775739608555,
+    "finishedAt": 1775739616547,
+    "totalTimeMs": 7992,
+    "score": 1,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [
+          "Opdatere software regelmæssigt",
+          "Bruge samme password overalt"
+        ],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [
+          "kdencds"
+        ],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "b2182b00-9aa3-4a7c-962b-2078fc34fdef",
+    "userId": "714ed32b-532c-47fe-9965-3d04affcccd5",
+    "username": "jeppeD",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775741560803,
+    "finishedAt": 1775741567421,
+    "totalTimeMs": 6618,
+    "score": 1,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [
+          "123456"
+        ],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [
+          "Opdatere software regelmæssigt",
+          "Bruge to-faktor autentifikation"
+        ],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [
+          "ygudschijas"
+        ],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "5ff03a6b-b5e7-4acd-9c63-7b39c4f06e0e",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775741753008,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "4132b842-cacc-473b-8d8c-d18a61844cbb",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775741802427,
+    "finishedAt": 1775741846623,
+    "totalTimeMs": 44196,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [
+          "password"
+        ],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [
+          "Opdatere software regelmæssigt",
+          "Dele sit password med venner"
+        ],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [
+          "dwsdw"
+        ],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "12baccf1-de72-4197-9c54-fae953dd44b8",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "QUIZ 2 om noget helt andet",
+    "startedAt": 1775744126377,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "c464eece-c934-4926-9433-2ddc84548b3d",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775744232113,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "bec77696-5870-450f-8841-066bcad439a2",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "QUIZ 2 om noget helt andet",
+    "startedAt": 1775744396379,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "e72f30f6-5091-4620-9213-a92c45f76739",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775748375509,
+    "finishedAt": 1775748382379,
+    "totalTimeMs": 6870,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [
+          "123456"
+        ],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [
+          "Bruge samme password overalt",
+          "Opdatere software regelmæssigt"
+        ],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [
+          "ddvdf"
+        ],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "5003c39d-75fd-49df-9730-e1a1465e5a64",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775748402194,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "7543f8b9-1be3-4811-b6e0-7c6f4b36b12a",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775749206999,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "3c90c233-cdfc-490a-8604-5b9314d09a36",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775749258697,
+    "finishedAt": 1775749259846,
+    "totalTimeMs": 1149,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "202e51d4-0c4b-4a1c-b019-1619fb87f94d",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775750263961,
+    "finishedAt": 1775750266563,
+    "totalTimeMs": 2602,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "8accae50-a26d-4f8c-b35e-04141d70567f",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775751131828,
+    "finishedAt": 1775751683534,
+    "totalTimeMs": 551706,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "30dd2a19-f5cc-4dcb-8ac4-0fdddc5b3b43",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775751694693,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "bca6eb87-03f6-470a-847a-a72f1cf0b986",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775751695612,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "c1b61b79-c738-4e72-8f8b-918f7dafc65c",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775751697208,
+    "finishedAt": 1775751699150,
+    "totalTimeMs": 1942,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "29092fd6-587f-43b6-9a1e-c9275dad0c9d",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775751737518,
+    "finishedAt": 1775751764228,
+    "totalTimeMs": 26710,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "e8700a3e-7f7c-415d-b135-065ccdaa3a37",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775751834558,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "8f403885-a394-441a-bc1e-430b86eb7667",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775751839926,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "d08ef08c-8100-4551-a8d9-747e145e7012",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775751854077,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "688907a3-8f64-4faa-9c63-9bd69a1da6ec",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775752570288,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "f9e6fd8a-3bda-48d9-875c-9b72675ac5b9",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775752571685,
+    "finishedAt": 1775752591109,
+    "totalTimeMs": 19424,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "588b8ac7-d6e4-4a61-9dda-dc771eedf455",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775752650918,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "c8cf2372-09b5-4e0d-847b-39b78d6add9c",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775752651596,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "cd120354-8ce8-4db9-ad32-e3220ea76114",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775752651843,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "2c1a81e8-7521-4a97-b589-99e1b4c71451",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775752653017,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "3f6ea035-8cc8-4d44-a9fd-7dc659bf3d39",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775752735700,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "af9b78ce-c312-4cc3-9c0f-b2401363683a",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775752792835,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "5a9fb14a-9a2d-421c-a53c-2fae2a4ec56d",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775752797383,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "929ef210-bce5-4cc8-a305-1540e90c6623",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775752815168,
+    "finishedAt": 1775752951003,
+    "totalTimeMs": 135835,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "c23f7043-3fe6-404a-92c5-1ce38f2c5f2c",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775753023797,
+    "finishedAt": 1775753025401,
+    "totalTimeMs": 1604,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "25e09ae0-1009-45cc-b6d9-fb70c9233e1d",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775753091154,
+    "finishedAt": 1775753116162,
+    "totalTimeMs": 25008,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [
+          "password"
+        ],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [
+          "Dele sit password med venner",
+          "Opdatere software regelmæssigt"
+        ],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [
+          "vi panering nordic"
+        ],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "b6a2f59b-1990-45c1-8a66-5d793f8dcffe",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775753165456,
+    "finishedAt": 1775753167863,
+    "totalTimeMs": 2407,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "517511dc-6300-4914-bb78-a0895d970446",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775753424688,
+    "finishedAt": 1775753428494,
+    "totalTimeMs": 3806,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "9a2b95a2-dd39-4a03-a95c-d8b35d20e7de",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775753461606,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "d98ad7b1-a926-44cf-9729-09f6e2e81f09",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775753724123,
+    "finishedAt": 1775753725374,
+    "totalTimeMs": 1251,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "9b2a0484-ca85-4393-b9c7-482bb1b0d888",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775753751388,
+    "finishedAt": 1775753752826,
+    "totalTimeMs": 1438,
+    "score": 0,
+    "maxScore": 3,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er et stærkt password?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En kombination af bogstaver, tal og specialtegn"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende er gode sikkerhedspraksisser?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Bruge to-faktor autentifikation",
+          "Opdatere software regelmæssigt"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'VPN' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Virtual Private Network"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "fdede122-e4fe-4c79-8f0e-776c6d3ff4ae",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "QUIZ 2 om noget helt andet",
+    "startedAt": 1775753857625,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "8cfd8b76-96ac-4b43-b50f-cab1699618d0",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed - Basis",
+    "startedAt": 1775753860510,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "a09d9ff6-c2df-4ccc-b187-bdd0813ebd82",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775755638686,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "dcc186c0-30e0-407b-8d3a-e4c860ebbeca",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775755699202,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "f8416f2e-6f37-4b89-ada7-acf1ae523b58",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775755753472,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "de71e976-aa26-4a8d-b956-a8ab24d45ff2",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775755831655,
+    "finishedAt": 1775755841775,
+    "totalTimeMs": 10120,
+    "score": 0,
+    "maxScore": 10,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad bestemmer CSS specificity?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Hvilken regel der bliver anvendt når flere matcher samme element"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende påvirker CSS specificity?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Inline styles",
+          "ID selectors"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad hedder layout systemet i CSS der arbejder i én dimension (enten række eller kolonne)?",
+        "type": "text",
+        "userAnswer": [
+          ""
+        ],
+        "correctAnswers": [
+          "flexbox"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q4",
+        "question": "Hvad gør 'position: absolute'?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Positionerer elementet relativt til nærmeste positionerede parent"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q5",
+        "question": "Hvilke af følgende er gyldige display værdier?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "flex",
+          "grid"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q6",
+        "question": "Hvad gør 'z-index'?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Styrer lagdeling (stacking order)"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q7",
+        "question": "Hvilke properties bruges i flexbox?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "justify-content",
+          "align-items"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q8",
+        "question": "Hvad hedder CSS layout systemet der arbejder i to dimensioner (rækker og kolonner)?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "grid"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q9",
+        "question": "Hvad betyder 'box-sizing: border-box'?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Padding og border inkluderes i elementets width/height"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q10",
+        "question": "Hvilke ting kan skabe en ny stacking context?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "position med z-index",
+          "opacity mindre end 1"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "77bac7b6-2613-4742-a8dd-986fcfe20c0f",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775755870937,
+    "finishedAt": 1775755873220,
+    "totalTimeMs": 2283,
+    "score": 0,
+    "maxScore": 10,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad bestemmer CSS specificity?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Hvilken regel der bliver anvendt når flere matcher samme element"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende påvirker CSS specificity?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Inline styles",
+          "ID selectors"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad hedder layout systemet i CSS der arbejder i én dimension (enten række eller kolonne)?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "flexbox"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q4",
+        "question": "Hvad gør 'position: absolute'?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Positionerer elementet relativt til nærmeste positionerede parent"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q5",
+        "question": "Hvilke af følgende er gyldige display værdier?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "flex",
+          "grid"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q6",
+        "question": "Hvad gør 'z-index'?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Styrer lagdeling (stacking order)"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q7",
+        "question": "Hvilke properties bruges i flexbox?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "justify-content",
+          "align-items"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q8",
+        "question": "Hvad hedder CSS layout systemet der arbejder i to dimensioner (rækker og kolonner)?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "grid"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q9",
+        "question": "Hvad betyder 'box-sizing: border-box'?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Padding og border inkluderes i elementets width/height"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q10",
+        "question": "Hvilke ting kan skabe en ny stacking context?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "position med z-index",
+          "opacity mindre end 1"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "02c6b3a9-8fac-4e6b-8cd8-88e98b044676",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775755879238,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "2a0b13f7-b0b2-4e1b-8187-1c7219de45de",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed",
+    "startedAt": 1775755882473,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "7c421a49-306b-48bf-8a72-2269addb09e0",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed",
+    "startedAt": 1775755930989,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "e11c6bf1-7104-4a61-b95a-18d774beea1a",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed",
+    "startedAt": 1775756100221,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "2dc9f18e-9af6-427f-95d1-b137bfe359cc",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775756110056,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "354ba7f6-5b3c-45be-b030-421638c360fe",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed",
+    "startedAt": 1775756144537,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "6e861ba0-8cf1-4fc8-b8d4-055e4bf32378",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775756156919,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "7a24dc41-9846-4b34-b261-72eef209b6e6",
+    "userId": "79cafad5-f1dc-43d4-b396-9ba2da9635e1",
+    "username": "mikael laudrup",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed",
+    "startedAt": 1775756391836,
+    "finishedAt": 1775756405390,
+    "totalTimeMs": 13554,
+    "score": 1,
+    "maxScore": 10,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er formålet med hashing af passwords?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "At omdanne passwords til en fast længde streng, der ikke kan vendes tilbage"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvad er formålet med salting?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "At gøre hashes unikke selv for ens passwords",
+          "At beskytte mod rainbow table angreb"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'HMAC' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Hash-based Message Authentication Code"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q4",
+        "question": "Hvad er forskellen mellem hashing og kryptering?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Hashing er én-vejs, kryptering er to-vejs"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q5",
+        "question": "Hvilke af følgende er sikre hashing-algoritmer til passwords?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "bcrypt",
+          "argon2"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q6",
+        "question": "Hvad er 'pepper' i forbindelse med password hashing?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En hemmelig værdi gemt separat fra databasen"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q7",
+        "question": "Hvilke angreb forsøger man at beskytte mod med hashing og salting?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Brute force angreb",
+          "Rainbow table angreb"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q8",
+        "question": "Hvad kaldes et angreb hvor man prøver alle mulige password kombinationer?",
+        "type": "text",
+        "userAnswer": [
+          "brute force"
+        ],
+        "correctAnswers": [
+          "brute force"
+        ],
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "id": "q9",
+        "question": "Hvorfor bør man bruge langsomme hashing-algoritmer som bcrypt?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "For at gøre brute force angreb langsommere"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q10",
+        "question": "Hvad er gode praksisser for password sikkerhed?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Brug af salt",
+          "Brug af pepper"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "6220deae-ebd2-4ade-ba82-b4084b8322d6",
+    "userId": "79cafad5-f1dc-43d4-b396-9ba2da9635e1",
+    "username": "mikael laudrup",
+    "role": "user",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775756431219,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "a96b69bd-2413-4ea2-805f-4690b8da6e73",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775764274332,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  },
+  {
+    "attemptId": "339edf65-2210-436c-869c-21b387664ceb",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed",
+    "startedAt": 1775764497433,
+    "finishedAt": 1775764519285,
+    "totalTimeMs": 21852,
+    "score": 0,
+    "maxScore": 10,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er formålet med hashing af passwords?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "At omdanne passwords til en fast længde streng, der ikke kan vendes tilbage"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvad er formålet med salting?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "At gøre hashes unikke selv for ens passwords",
+          "At beskytte mod rainbow table angreb"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'HMAC' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Hash-based Message Authentication Code"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q4",
+        "question": "Hvad er forskellen mellem hashing og kryptering?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Hashing er én-vejs, kryptering er to-vejs"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q5",
+        "question": "Hvilke af følgende er sikre hashing-algoritmer til passwords?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "bcrypt",
+          "argon2"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q6",
+        "question": "Hvad er 'pepper' i forbindelse med password hashing?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "En hemmelig værdi gemt separat fra databasen"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q7",
+        "question": "Hvilke angreb forsøger man at beskytte mod med hashing og salting?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Brute force angreb",
+          "Rainbow table angreb"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q8",
+        "question": "Hvad kaldes et angreb hvor man prøver alle mulige password kombinationer?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "brute force"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q9",
+        "question": "Hvorfor bør man bruge langsomme hashing-algoritmer som bcrypt?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "For at gøre brute force angreb langsommere"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q10",
+        "question": "Hvad er gode praksisser for password sikkerhed?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Brug af salt",
+          "Brug af pepper"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "d2555509-cbbe-4f26-bbe0-e820814dc1b4",
+    "userId": "a3962993-8361-43a8-8f23-e8e5c1a19252",
+    "username": "anders",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed",
+    "startedAt": 1775765757967,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
+  }
+]
