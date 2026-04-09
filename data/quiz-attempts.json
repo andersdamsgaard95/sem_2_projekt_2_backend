@@ -1876,5 +1876,284 @@
     "score": null,
     "maxScore": null,
     "answers": null
+  },
+  {
+    "attemptId": "f44442fc-27d5-46b1-9c39-ece6f3c786bf",
+    "userId": "c0d54592-5e4e-4194-8389-daabeb0109d5",
+    "username": "jeppedamsgaard",
+    "role": "user",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed",
+    "startedAt": 1775768455568,
+    "finishedAt": 1775768506489,
+    "totalTimeMs": 50921,
+    "score": 0,
+    "maxScore": 10,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad er formålet med hashing af passwords?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "At omdanne passwords til en fast længde streng, der ikke kan vendes tilbage"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvad er formålet med salting?",
+        "type": "multiple",
+        "userAnswer": [
+          "At gøre hashing hurtigere",
+          "At beskytte mod rainbow table angreb"
+        ],
+        "correctAnswers": [
+          "At gøre hashes unikke selv for ens passwords",
+          "At beskytte mod rainbow table angreb"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad står forkortelsen 'HMAC' for?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Hash-based Message Authentication Code"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q4",
+        "question": "Hvad er forskellen mellem hashing og kryptering?",
+        "type": "single",
+        "userAnswer": [
+          "Der er ingen forskel"
+        ],
+        "correctAnswers": [
+          "Hashing er én-vejs, kryptering er to-vejs"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q5",
+        "question": "Hvilke af følgende er sikre hashing-algoritmer til passwords?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "bcrypt",
+          "argon2"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q6",
+        "question": "Hvad er 'pepper' i forbindelse med password hashing?",
+        "type": "single",
+        "userAnswer": [
+          "En offentlig nøgle gemt i databasen"
+        ],
+        "correctAnswers": [
+          "En hemmelig værdi gemt separat fra databasen"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q7",
+        "question": "Hvilke angreb forsøger man at beskytte mod med hashing og salting?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Brute force angreb",
+          "Rainbow table angreb"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q8",
+        "question": "Hvad kaldes et angreb hvor man prøver alle mulige password kombinationer?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "brute force"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q9",
+        "question": "Hvorfor bør man bruge langsomme hashing-algoritmer som bcrypt?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "For at gøre brute force angreb langsommere"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q10",
+        "question": "Hvad er gode praksisser for password sikkerhed?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Brug af salt",
+          "Brug af pepper"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "5e075f9b-db04-471b-8d8d-57742b2ef83c",
+    "userId": "c0d54592-5e4e-4194-8389-daabeb0109d5",
+    "username": "jeppedamsgaard",
+    "role": "user",
+    "quizId": "quiz2",
+    "quizTitle": "CSS",
+    "startedAt": 1775768542617,
+    "finishedAt": 1775768546055,
+    "totalTimeMs": 3438,
+    "score": 0,
+    "maxScore": 10,
+    "answers": [
+      {
+        "id": "q1",
+        "question": "Hvad bestemmer CSS specificity?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Hvilken regel der bliver anvendt når flere matcher samme element"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q2",
+        "question": "Hvilke af følgende påvirker CSS specificity?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Inline styles",
+          "ID selectors"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q3",
+        "question": "Hvad hedder layout systemet i CSS der arbejder i én dimension (enten række eller kolonne)?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "flexbox"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q4",
+        "question": "Hvad gør 'position: absolute'?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Positionerer elementet relativt til nærmeste positionerede parent"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q5",
+        "question": "Hvilke af følgende er gyldige display værdier?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "flex",
+          "grid"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q6",
+        "question": "Hvad gør 'z-index'?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Styrer lagdeling (stacking order)"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q7",
+        "question": "Hvilke properties bruges i flexbox?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "justify-content",
+          "align-items"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q8",
+        "question": "Hvad hedder CSS layout systemet der arbejder i to dimensioner (rækker og kolonner)?",
+        "type": "text",
+        "userAnswer": [],
+        "correctAnswers": [
+          "grid"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q9",
+        "question": "Hvad betyder 'box-sizing: border-box'?",
+        "type": "single",
+        "userAnswer": [],
+        "correctAnswers": [
+          "Padding og border inkluderes i elementets width/height"
+        ],
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "id": "q10",
+        "question": "Hvilke ting kan skabe en ny stacking context?",
+        "type": "multiple",
+        "userAnswer": [],
+        "correctAnswers": [
+          "position med z-index",
+          "opacity mindre end 1"
+        ],
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "attemptId": "9bd262b0-0689-421c-9b49-294c0fd3e9d0",
+    "userId": "867d6d2a-a34c-4ed3-a3a4-b1ea357327d4",
+    "username": "batman2",
+    "role": "admin",
+    "quizId": "quiz1",
+    "quizTitle": "Datasikkerhed",
+    "startedAt": 1775768596121,
+    "finishedAt": null,
+    "totalTimeMs": null,
+    "score": null,
+    "maxScore": null,
+    "answers": null
   }
 ]

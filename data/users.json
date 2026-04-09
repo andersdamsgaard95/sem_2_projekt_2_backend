@@ -63,5 +63,13 @@
     "password": "$argon2id$v=19$m=65536,t=3,p=4$9uchfcly4l7JxpMuL6yylw$lEeyOmMxeNq1mP0tbaYlEeOWH0Oky1pxEGWg/9QJRLQ",
     "role": "user",
     "createdAt": 1775756265860
+  },
+  {
+    "id": "c0d54592-5e4e-4194-8389-daabeb0109d5",
+    "username": "jeppedamsgaard",
+    "email": "jeppe@jeppe.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$5wPnZmjfxbYqGtkOiLPRXw$as5EuigyvPV4oc1cpOtuE4mLzeXmkTz0C0ch5SViihg",
+    "role": "user",
+    "createdAt": 1775768412497
   }
 ]
